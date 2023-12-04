@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SKY BOT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ <!-- commmand => npx tailwindcss ./src/input.css -o ./dist/style.css --watch   -->
+
+ <body class="bg-gray-100">
+    <div id="chat-container" class="max-w-lg mx-auto mt-8 p-4 bg-white shadow">
+        <!-- Chat messages will be displayed here -->
+    </div>
+
+    <div id="input-container" class="max-w-lg mx-auto mt-4 p-4 bg-white shadow">
+        <input type="text" id="user-input" class="w-full px-4 py-2 border rounded">
+        <button onclick="sendMessage()" class="mt-2 px-4 py-2 bg-blue-500 text-white rounded">Send</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+
+</html>
