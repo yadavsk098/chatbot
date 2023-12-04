@@ -15,7 +15,7 @@ function sendMessage() {
     // Simulating a bot response for now
     setTimeout(() => {
         const botResponse = 'I received your message: ' + userInput;
-        appendMessage('Bot', botResponse, 'bg-green-500', 'text-white');
+        appendMessage('Bot', botResponse, 'bg-green-500', 'text-blue');
     }, 500);
     
     // Clear the user input field
